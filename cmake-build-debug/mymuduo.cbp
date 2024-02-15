@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="mymuduo" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/zenger/mymuduo/cmake-build-debug" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zenger/mymuduo/cmake-build-debug/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zenger/mymuduo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zenger/mymuduo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zenger/mymuduo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/zenger/mymuduo/cmake-build-debug" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zenger/mymuduo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zenger/mymuduo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zenger/mymuduo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zenger/mymuduo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/zenger/mymuduo/cmake-build-debug" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zenger/mymuduo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zenger/mymuduo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zenger/mymuduo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zenger/mymuduo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="mymuduo">
+         <Option output="/home/zenger/mymuduo/lib/libmymuduo.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zenger/mymuduo/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/opt/rh/devtoolset-8/root/usr/include" />
+            <Add directory="/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8" />
+            <Add directory="/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward" />
+            <Add directory="/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux" />
+            <Add directory="/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zenger/mymuduo/cmake-build-debug/Makefile&quot;  VERBOSE=1 mymuduo" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zenger/mymuduo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zenger/mymuduo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zenger/mymuduo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="mymuduo/fast">
+         <Option output="/home/zenger/mymuduo/lib/libmymuduo.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zenger/mymuduo/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/opt/rh/devtoolset-8/root/usr/include" />
+            <Add directory="/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8" />
+            <Add directory="/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward" />
+            <Add directory="/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux" />
+            <Add directory="/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zenger/mymuduo/cmake-build-debug/Makefile&quot;  VERBOSE=1 mymuduo/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zenger/mymuduo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zenger/mymuduo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zenger/mymuduo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/zenger/mymuduo/Acceptor.cc">
+         <Option target="mymuduo"/>
+      </Unit>
+      <Unit filename="/home/zenger/mymuduo/Acceptor.h">
+         <Option target="mymuduo"/>
+      </Unit>
+      <Unit filename="/home/zenger/mymuduo/Buffer.cc">
+         <Option target="mymuduo"/>
+      </Unit>
+      <Unit filename="/home/zenger/mymuduo/Buffer.h">
+         <Option target="mymuduo"/>
+      </Unit>
+      <Unit filename="/home/zenger/mymuduo/Channel.cc">
+         <Option target="mymuduo"/>
+      </Unit>
+      <Unit filename="/home/zenger/mymuduo/Channel.h">
+         <Option target="mymuduo"/>
+      </Unit>
+      <Unit filename="/home/zenger/mymuduo/CurrentThread.cc">
+         <Option target="mymuduo"/>
+      </Unit>
+      <Unit filename="/home/zenger/mymuduo/CurrentThread.h">
+         <Option target="mymuduo"/>
+      </Unit>
+      <Unit filename="/home/zenger/mymuduo/DefaultPoller.cc">
+         <Option target="mymuduo"/>
+      </Unit>
+      <Unit filename="/home/zenger/mymuduo/EPollPoller.cc">
+         <Option target="mymuduo"/>
+      </Unit>
+      <Unit filename="/home/zenger/mymuduo/EPollPoller.h">
+         <Option target="mymuduo"/>
+      </Unit>
+      <Unit filename="/home/zenger/mymuduo/EventLoop.cc">
+         <Option target="mymuduo"/>
+      </Unit>
+      <Unit filename="/home/zenger/mymuduo/EventLoop.h">
+         <Option target="mymuduo"/>
+      </Unit>
+      <Unit filename="/home/zenger/mymuduo/EventLoopThread.cc">
+         <Option target="mymuduo"/>
+      </Unit>
+      <Unit filename="/home/zenger/mymuduo/EventLoopThread.h">
+         <Option target="mymuduo"/>
+      </Unit>
+      <Unit filename="/home/zenger/mymuduo/EventLoopThreadPool.cc">
+         <Option target="mymuduo"/>
+      </Unit>
+      <Unit filename="/home/zenger/mymuduo/EventLoopThreadPool.h">
+         <Option target="mymuduo"/>
+      </Unit>
+      <Unit filename="/home/zenger/mymuduo/InetAddress.cc">
+         <Option target="mymuduo"/>
+      </Unit>
+      <Unit filename="/home/zenger/mymuduo/InetAddress.h">
+         <Option target="mymuduo"/>
+      </Unit>
+      <Unit filename="/home/zenger/mymuduo/Logger.cc">
+         <Option target="mymuduo"/>
+      </Unit>
+      <Unit filename="/home/zenger/mymuduo/Logger.h">
+         <Option target="mymuduo"/>
+      </Unit>
+      <Unit filename="/home/zenger/mymuduo/Poller.cc">
+         <Option target="mymuduo"/>
+      </Unit>
+      <Unit filename="/home/zenger/mymuduo/Poller.h">
+         <Option target="mymuduo"/>
+      </Unit>
+      <Unit filename="/home/zenger/mymuduo/Socket.cc">
+         <Option target="mymuduo"/>
+      </Unit>
+      <Unit filename="/home/zenger/mymuduo/Socket.h">
+         <Option target="mymuduo"/>
+      </Unit>
+      <Unit filename="/home/zenger/mymuduo/TcpConnection.cc">
+         <Option target="mymuduo"/>
+      </Unit>
+      <Unit filename="/home/zenger/mymuduo/TcpConnection.h">
+         <Option target="mymuduo"/>
+      </Unit>
+      <Unit filename="/home/zenger/mymuduo/TcpServer.cc">
+         <Option target="mymuduo"/>
+      </Unit>
+      <Unit filename="/home/zenger/mymuduo/TcpServer.h">
+         <Option target="mymuduo"/>
+      </Unit>
+      <Unit filename="/home/zenger/mymuduo/Thread.cc">
+         <Option target="mymuduo"/>
+      </Unit>
+      <Unit filename="/home/zenger/mymuduo/Thread.h">
+         <Option target="mymuduo"/>
+      </Unit>
+      <Unit filename="/home/zenger/mymuduo/Timestamp.cc">
+         <Option target="mymuduo"/>
+      </Unit>
+      <Unit filename="/home/zenger/mymuduo/Timestamp.h">
+         <Option target="mymuduo"/>
+      </Unit>
+      <Unit filename="/home/zenger/mymuduo/library.cpp">
+         <Option target="mymuduo"/>
+      </Unit>
+      <Unit filename="/home/zenger/mymuduo/library.h">
+         <Option target="mymuduo"/>
+      </Unit>
+      <Unit filename="/home/zenger/mymuduo/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

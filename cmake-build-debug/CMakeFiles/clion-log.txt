@@ -1,0 +1,4 @@
+无法生成至 D:\CodeEvn\mymuduo\cmake-build-debug
+它已用于项目 \home\zenger\mymuduo
+
+请手动删除或选择其他生成目录
