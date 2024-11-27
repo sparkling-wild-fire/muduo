@@ -31,7 +31,7 @@ EPollPoller::~EPollPoller()
 
 Timestamp EPollPoller::poll(int timeoutMs, ChannelList *activeChannels)
 {
-    // 实际上应该用LOG_DEBUG输出日志更为合理  LT  => muduoca采用的  ET和LT是相对缓冲区的吧
+    // 实际上应该用LOG_DEBUG输出日志更为合理  LT  => muduo采用的
     LOG_INFO("func=%s => fd total count:%lu \n", __FUNCTION__, channels_.size());
 
     int numEvents = ::epoll_wait(epollfd_, &*events_.begin(), static_cast<int>(events_.size()), timeoutMs);
@@ -135,7 +135,7 @@ void EPollPoller::update(int operation, Channel *channel)
     int fd = channel->fd();
 
     event.events = channel->events();  // 为什么要把事件取出来呢？ 因为epoll的事件结构体，data包括fd和用户指针
-    event.data.fd = fd; 
+    event.data.fd = fd;
     event.data.ptr = channel;
     
     if (::epoll_ctl(epollfd_, operation, fd, &event) < 0)
