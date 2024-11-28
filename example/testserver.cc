@@ -10,7 +10,6 @@ public:
     EchoServer(EventLoop *loop,
             const InetAddress &addr, 
             const std::string &name)
-        : server_(loop, addr, name)
         , loop_(loop)
     {
         // 注册回调函数
